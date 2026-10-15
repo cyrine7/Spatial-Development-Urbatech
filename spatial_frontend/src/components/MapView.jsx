@@ -4,7 +4,7 @@ import "mapbox-gl/dist/mapbox-gl.css";
 import "../App.css";
 import PaymentModal from './PaymentModal';
 
-mapboxgl.accessToken = 'YOUR_MAPBOX_TOKEN';
+mapboxgl.accessToken = import.meta.env.VITE_MAPBOX_TOKEN;
 
 const STYLES = {
   sat: "mapbox://styles/mapbox/satellite-v9",
