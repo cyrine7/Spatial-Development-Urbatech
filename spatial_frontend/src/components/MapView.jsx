@@ -4,7 +4,7 @@ import "mapbox-gl/dist/mapbox-gl.css";
 import "../App.css";
 import PaymentModal from './PaymentModal';
 
-mapboxgl.accessToken = 'pk.eyJ1Ijoic3lyaW5lYmgyMCIsImEiOiJjbXM2Mm52d2kwMW1xMnlzNXJ0YThuMzZ0In0.cYdpA10qDNYkb6HuYBH_6g';
+mapboxgl.accessToken = 'YOUR_MAPBOX_TOKEN';
 
 const STYLES = {
   sat: "mapbox://styles/mapbox/satellite-v9",
